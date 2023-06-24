@@ -1,0 +1,42 @@
+html {
+    font-size: 14px;
+    height:100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+   background-color:black!important;
+   height:100%;
+}
+
+#TOP_MENU{
+    background-color:gray !important;
+    color:white;
+}
+
+#BOTTOM_MENU {
+    width:100%;
+    background-color: dimgray !important;
+    color: white;
+}
+.MAP-1 {
+    background-image: url("/Media/MAP/MAP.png");
+    width:100%;
+    height:100%;
+}
+.VIEW {
+    display: grid;
+    height: 100%!important;
+}
